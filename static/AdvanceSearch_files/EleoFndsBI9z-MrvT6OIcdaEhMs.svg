@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="20px" height="29px" viewBox="0 0 20 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-60.000000, -81.000000)" fill="#444444">
+      <g transform="translate(0.000000, 60.000000)">
+        <g transform="translate(60.000000, 21.000000)">
+          <g transform="translate(0.127407, 0.176296)">
+            <polygon id="Path" points="19.7451851 13.6805926 7.23407169 9.3022388 9.68134635 15.4063217 13.586944 17.2256995 19.7451851 17.2256995 19.7451851 13.6805926"></polygon>
+            <polygon id="Path" points="5.64148147 21.7998127 5.64148147 1.97451851 0 0 0 25.0481777 5.64148147 28.2074073 19.7451851 20.0938287 19.7451851 13.6805926"></polygon>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

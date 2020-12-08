@@ -1,0 +1,1 @@
+var BingAtWork;(function(n){var t;(function(){function t(t){var r,i;n.SsoUtils.raiseAuthEventAndLog(t);r=_ge("sb_form_q");r&&(i=r.getAttribute("value"),i&&(n.SsoUtils.fetchLowerHeader(i),n.SsoUtils.fetchScopeBar(i)))}function i(n){n&&n.length==2&&t(n[1])}sj_evt.bind("ssofirstquery",i,!0,null,!1)})(t=n.SsoWeb||(n.SsoWeb={}))})(BingAtWork||(BingAtWork={}))
