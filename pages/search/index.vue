@@ -27,6 +27,10 @@ export default {
     },
     showCamera(){
       this.showCameraCheck = true;
+    },
+    onDecode(decodedString){
+      alert(decodedString);
+      this.showCameraCheck = false;
     }
   },
   data() {

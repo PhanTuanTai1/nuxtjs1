@@ -1,5 +1,5 @@
 <div>
-    <qrcode-stream v-if="showCameraCheck" style="width: 100%;height: 100%;z-index: 9999;"></qrcode-stream>
+    <qrcode-stream v-if="showCameraCheck" style="width: 100%;height: 100%;z-index: 9999;" @decode="onDecode"></qrcode-stream>
     <div v-if="!showCameraCheck">
     <header id="b_header" class="">
         
