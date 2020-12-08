@@ -5,7 +5,7 @@ import Result from "~/components/Result.vue";
 import SearchResult from "~/components/SearchResult.vue";
 import axios from "axios";
 import vueDropzone from "vue2-dropzone";
-import { QrcodeStream, QrcodeDropZone, QrcodeCapture } from 'vue-qrcode-reader'
+import { QrcodeStream } from 'vue-qrcode-reader'
 
 export default {
   methods: {
@@ -27,10 +27,16 @@ export default {
     },
     showCamera(){
       this.showCameraCheck = true;
+      this.camera = 'auto';
     },
     onDecode(decodedString){
       alert(decodedString);
       this.showCameraCheck = false;
+      this.camera = 'off';
+    },
+    turnOffCamera(){
+      this.showCameraCheck = false;
+      this.camera = 'off';
     }
   },
   data() {
@@ -45,16 +51,15 @@ export default {
         sending: function(file, response){
             file.previewElement.innerHTML = "";
         }
-      }
+      },
+      camera: 'auto'
     };
   },
   components: {
     Result,
     vueDropzone,
     SearchResult,
-    QrcodeStream,
-    QrcodeDropZone,
-    QrcodeCapture
+    QrcodeStream
   }
 };
 </script>

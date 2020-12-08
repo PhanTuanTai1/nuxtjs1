@@ -1,5 +1,7 @@
 <div>
-    <qrcode-stream v-if="showCameraCheck" style="width: 100%;height: 100%;z-index: 9999;" @decode="onDecode"></qrcode-stream>
+    <qrcode-stream v-if="showCameraCheck" :camera="camera" style="width: 100%;height: 100%;z-index: 9999;" @decode="onDecode">
+        <button style="float: right;color: white;width: 50px;height: 50px;margin: 10px;" v-on:click="turnOffCamera()">X</button>
+    </qrcode-stream>
     <div v-if="!showCameraCheck">
     <header id="b_header" class="">
         
